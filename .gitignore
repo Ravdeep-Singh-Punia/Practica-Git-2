@@ -1,0 +1,22 @@
+# Carpetes de compilació
+bin/
+obj/
+
+# Fitxers específics de Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Fitxers temporals de Windows
+Thumbs.db
+ehthumbs.db
+
+# Fitxers de NuGet
+.nuget/
+
+# Fitxers d'usuari i de configuració
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
