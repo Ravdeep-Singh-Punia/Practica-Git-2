@@ -1,20 +1,21 @@
 ﻿using System;
-using Models;  // Importa la classe Vehicle des de Models
+using Models;  // Importa las clases del espacio de nombres Models
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Crear un objecte Vehicle
-        Vehicle vehicle1 = new Vehicle("Model B", "Ferrari", 2022, 290.0);
+        // Crear un objeto Cotxe (derivado de Vehicle)
+        Cotxe vehicle1 = new Cotxe("Model B", "Ferrari", 2022, 290.0, 2);
 
-        // Mostrar la informació del vehicle
+        // Mostrar la información del primer vehículo
         vehicle1.MostrarInformacio();
 
-        // Crear un altre objecte Vehicle
-        Vehicle vehicle2 = new Vehicle("Classe S", "Mercedes", 2024, 280.0);
+        // Crear otro objeto Cotxe (derivado de Vehicle)
+        Cotxe vehicle2 = new Cotxe("Classe S", "Mercedes", 2024, 280.0, 4);
         
-        // Mostrar la informació del segon vehicle
+        // Mostrar la información del segundo vehículo
         vehicle2.MostrarInformacio();
     }
 }
+
